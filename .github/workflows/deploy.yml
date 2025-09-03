@@ -15,8 +15,8 @@ jobs:
           username: ${{ secrets.REGRU_USER }}
           key: ${{ secrets.REGRU_KEY }}
           script: |
-            cd /var/www/u1538455/data/www/site100svetogor.site/wp-content/themes/site100svetogor
-            git clone git@github.com:site100ru/svetogor-wp.git .
+            #cd /var/www/u1538455/data/www/site100svetogor.site/wp-content/themes/site100svetogor
+            #git clone git@github.com:site100ru/svetogor-wp.git .
             
-            #cd ~/domofon62/public_html/wp-content/themes/site100domofon
-            #git pull
+            cd /var/www/u1538455/data/www/site100svetogor.site/wp-content/themes/site100svetogor
+            git pull
